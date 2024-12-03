@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+  height:100vh;
+  background-image: url("./edusity_assets/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.background
+{
+  background-color: rgba(0, 0, 255, 0.35);
+}
+.background2
+{
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.back
+{
+  width:700px;
+}
+
+.height1
+{
+  animation-name: height1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  margin-top: 220px;
+
+}
+
+
+@keyframes height1
+{
+0%
+{
+  opacity:0;
+  margin-top:355px;
+}
+100%
+{
+  opacity: 1;
+  margin-top:175px;
+}
+}
+ 
+.height2
+{
+  animation-name: height2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes height2
+{
+  0%
+{
+  opacity:0;
+}
+100%
+{
+  opacity: 1;
+}
+}
+.height2 p
+{
+  cursor: pointer;
+}
