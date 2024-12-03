@@ -1,3 +1,34 @@
+# Modern Landing Page Project
+
+## 🌟 Overview
+A dynamic, responsive landing page created using React.js, designed to provide a compelling and interactive first impression for visitors.
+
+## ✨ Features
+- Fully responsive design
+- Modern, clean user interface
+- Smooth scrolling and navigation
+- Interactive components
+- Optimized for performance
+
+## 🛠 Technologies Used
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Responsive Design Principles
+- React Hooks
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
